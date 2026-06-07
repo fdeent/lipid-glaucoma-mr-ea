@@ -1,0 +1,6 @@
+test,Q,Q_p,OR_BBJ,OR_TPMI,conclusion,OR_POAG,OR_PACG
+KOGES_LDL: BBJ vs TPMI,0.608,0.4356,0.843,0.894,consistent,,
+KOGES_TC: BBJ vs TPMI,0.018,0.8931,0.862,0.871,consistent,,
+KOGES_TG: BBJ vs TPMI,1.663,0.1971,0.873,0.947,consistent,,
+KOGES_LIP: BBJ vs TPMI,0.001,0.9789,0.859,0.858,consistent,,
+KOGES LIP: POAG vs PACG direction divergence,15.836,0.0001,,,significant divergence,0.898,1.196

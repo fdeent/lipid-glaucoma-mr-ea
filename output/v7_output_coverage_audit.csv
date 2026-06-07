@@ -1,0 +1,50 @@
+file,rows,status,note
+output/drugtarget_mr_bbj.csv,4.0,LEGACY_OR_SOURCE,"legacy/source drug-target output from prior stage, consolidated into table_s3_drugtarget.csv"
+output/drugtarget_mr_combined.csv,4.0,LEGACY_OR_SOURCE,"legacy/source drug-target output from prior stage, consolidated into table_s3_drugtarget.csv"
+output/drugtarget_mr_gbmi_poag.csv,2.0,LEGACY_OR_SOURCE,legacy/source drug-target output from prior stage
+output/drugtarget_mr_twb.csv,3.0,LEGACY_OR_SOURCE,legacy/source drug-target output from prior stage
+output/gbmi_poag_lipid_replication.csv,4.0,LEGACY_OR_SOURCE,legacy/supporting output not used as independent replication because GBMI includes BBJ
+output/sensitivity_mr_new_outcomes.csv,12.0,FINAL_OR_SUPPORTING,final new-outcome sensitivity source for PACG and ATC values
+output/supplemental_test_cad_positive_control_results.csv,16.0,LEGACY_OR_SOURCE,legacy preliminary positive-control output superseded by v7_positive_control_results.csv
+output/supplemental_test_mvmr_ldl_tg_hdl_results.csv,2.0,LEGACY_OR_SOURCE,legacy preliminary MVMR output superseded by v7_mvmr_results.csv
+output/supplemental_test_r2_0001_core_results.csv,8.0,LEGACY_OR_SOURCE,legacy preliminary stricter-LD output superseded by v7_stricter_ld_results.csv
+output/tpmi_glaucoma_lipid.csv,4.0,LEGACY_OR_SOURCE,legacy/source TPMI output propagated into v7 cross-validation outputs
+output/v6_clumped_snp_lists.csv,2433.0,LEGACY_OR_SOURCE,v6 support file
+output/v6_mr_all_results.csv,1078.0,LEGACY_OR_SOURCE,v6 source file for v7 filtered outputs
+output/v6_mr_summary_graded.csv,1078.0,LEGACY_OR_SOURCE,v6 source file for v7 filtered outputs
+output/v7_atc_s01e_results.csv,4.0,FINAL_OR_SUPPORTING,final ATC S01E clinical proxy output
+output/v7_consistency_tests.csv,5.0,FINAL_OR_SUPPORTING,final cross-outcome/subtype heterogeneity output
+output/v7_cross_validation_recalc.csv,6.0,INTERMEDIATE_SUPERSEDED,intermediate recalculated cross-validation input propagated to v7_table2_with_cis.csv and figure sources
+output/v7_f_statistics.csv,8.0,FINAL_OR_SUPPORTING,final instrument strength output
+output/v7_fdr_results.csv,84.0,INTERMEDIATE_SUPERSEDED,intermediate FDR working table; primary FDR statement is represented in v7_main_from_v6/S1 and text
+output/v7_fig1_source.csv,16.0,FINAL_OR_SUPPORTING,final Figure 1 source data
+output/v7_fig2_mvmr_source.csv,6.0,FINAL_OR_SUPPORTING,final Figure 2A source data
+output/v7_fig2_subtype_source.csv,4.0,FINAL_OR_SUPPORTING,final Figure 2B source data
+output/v7_figS1_source.csv,6.0,FINAL_OR_SUPPORTING,final Figure S1 source data
+output/v7_figS2_scatter_source.csv,135.0,FINAL_OR_SUPPORTING,final Figure S2 source data
+output/v7_figS3_leave_one_out_source.csv,10.0,FINAL_OR_SUPPORTING,final Figure S3 source data
+output/v7_leave_one_out_all.csv,135.0,FINAL_OR_SUPPORTING,final leave-one-out output and Fig S3 source basis
+output/v7_main_from_v6.csv,84.0,FINAL_OR_SUPPORTING,final v7-filtered 84-row analysis matrix supporting S1 and selected text claims
+output/v7_mediation_results.csv,2.0,FINAL_OR_SUPPORTING,final mediation output supporting text
+output/v7_mr_complete.csv,84.0,INTERMEDIATE_SUPERSEDED,intermediate complete MR working table; final reporting uses table_s1_full_mr.csv
+output/v7_mvmr_results.csv,2.0,FINAL_OR_SUPPORTING,"final MVMR output supporting text, Fig 2A, Table S2"
+output/v7_output_coverage_audit.csv,49.0,FINAL_OR_SUPPORTING,output coverage audit output
+output/v7_paragraph_table_audit.csv,59.0,FINAL_OR_SUPPORTING,numeric audit output
+output/v7_positive_control_results.csv,8.0,FINAL_OR_SUPPORTING,final CAD positive-control output
+output/v7_reference_audit.csv,33.0,FINAL_OR_SUPPORTING,reference content and metadata audit output
+output/v7_reverse_mr.csv,4.0,FINAL_OR_SUPPORTING,final reverse MR output
+output/v7_sensitivity_from_v6.csv,84.0,INTERMEDIATE_SUPERSEDED,intermediate sensitivity working table; final reporting uses table_s5_sensitivity.csv and text-specific outputs
+output/v7_steiger_per_snp.csv,486.0,FINAL_OR_SUPPORTING,per-SNP Steiger detail supporting v7_steiger_results.csv
+output/v7_steiger_results.csv,11.0,FINAL_OR_SUPPORTING,final Steiger summary output
+output/v7_steiger_summary.txt,,FINAL_OR_SUPPORTING,text Steiger summary supporting v7_steiger_results.csv and supplementary paragraph
+output/v7_stricter_ld_results.csv,8.0,FINAL_OR_SUPPORTING,final stricter LD sensitivity output
+output/v7_table2_main_results.csv,18.0,INTERMEDIATE_SUPERSEDED,intermediate predecessor of v7_table2_with_cis.csv
+output/v7_table2_with_cis.csv,18.0,FINAL_OR_SUPPORTING,"final Table 2/source for primary, replication, cross-validation, FinnGen POAG"
+output/v7_taiwan_reference_audit.csv,4.0,FINAL_OR_SUPPORTING,Taiwan TPMI/TWB reference audit output
+output/v7_tpmi365_sensitivity.csv,7.0,INTERMEDIATE_SUPERSEDED,intermediate TPMI sensitivity subset propagated to table2/cross-validation text
+output/v7_unused_bib_entries.csv,27.0,FINAL_OR_SUPPORTING,unused BibTeX entries audit output
+supplementary/table_s1_full_mr.csv,84.0,FINAL_OR_SUPPORTING,final Supplementary Table S1
+supplementary/table_s2_mvmr.csv,2.0,FINAL_OR_SUPPORTING,final Supplementary Table S2
+supplementary/table_s3_drugtarget.csv,4.0,FINAL_OR_SUPPORTING,final Supplementary Table S3
+supplementary/table_s4_protein_mr.csv,58.0,FINAL_OR_SUPPORTING,final Supplementary Table S4
+supplementary/table_s5_sensitivity.csv,4.0,FINAL_OR_SUPPORTING,final Supplementary Table S5
