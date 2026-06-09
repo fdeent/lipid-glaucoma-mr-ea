@@ -1,0 +1,8 @@
+instrument_source,exposure,outcome,evidence_role,n_iv,ivw_or,ivw_lci,ivw_uci,ivw_p,caveat
+KoGES,KOGES_LDL,GBMI_POAG,supporting_poag_partial_outcome_overlap,37,0.8566963417387439,0.7823530297928474,0.9381041473602744,0.0008391153861515,GBMI East Asian POAG includes BBJ participants; not independent of the BBJ primary outcome.
+KoGES,KOGES_TC,GBMI_POAG,supporting_poag_partial_outcome_overlap,39,0.8870385346456443,0.8078749261394149,0.9739593797103534,0.0119633688238438,GBMI East Asian POAG includes BBJ participants; not independent of the BBJ primary outcome.
+KoGES,KOGES_TG,GBMI_POAG,supporting_poag_partial_outcome_overlap,33,0.8968158203382753,0.8312811745938403,0.967516936735612,0.0049089495207459,GBMI East Asian POAG includes BBJ participants; not independent of the BBJ primary outcome.
+KoGES,KOGES_LIP,GBMI_POAG,supporting_poag_partial_outcome_overlap,7,0.8596118843647008,0.7879710471298972,0.9377661710192488,0.000656211939958,GBMI East Asian POAG includes BBJ participants; not independent of the BBJ primary outcome.
+TPMI,TPMI_LDL-C,GBMI_POAG,supporting_poag_partial_outcome_overlap,12,0.8705080756160006,0.669773345055942,1.1314041015612228,0.2997845906788732,GBMI East Asian POAG includes BBJ participants; supportive analysis of an overlapping POAG outcome.
+TPMI,TPMI_TC,GBMI_POAG,supporting_poag_partial_outcome_overlap,20,0.8308102635712113,0.66859935326496,1.032375653198886,0.0944266579167787,GBMI East Asian POAG includes BBJ participants; supportive analysis of an overlapping POAG outcome.
+TPMI,TPMI_HDL-C,GBMI_POAG,supporting_poag_partial_outcome_overlap,14,1.0209112557995343,0.8085524061019869,1.2890442033842846,0.8619137583047909,GBMI East Asian POAG includes BBJ participants; supportive analysis of an overlapping POAG outcome.

@@ -36,7 +36,7 @@ def weighted_median(beta_exp, se_exp, beta_out, se_out, n_boot=1000):
     order = np.argsort(beta_iv)
     cum_w = np.cumsum(weights[order])
     idx = np.searchsorted(cum_w, 0.5)
-    beta_wm = beta_iv[order[idx]]
+    beta_wm = beta_iv[order[min(idx, len(order)-1)]]
     # Bootstrap SE
     n = len(beta_exp)
     betas_boot = np.empty(n_boot)
@@ -48,7 +48,7 @@ def weighted_median(beta_exp, se_exp, beta_out, se_out, n_boot=1000):
         o = np.argsort(b_iv)
         cw = np.cumsum(w[o])
         j = np.searchsorted(cw, 0.5)
-        betas_boot[i] = b_iv[o[j]]
+        betas_boot[i] = b_iv[o[min(j, len(o)-1)]]
     se_wm = np.std(betas_boot)
     p = 2 * stats.norm.sf(abs(beta_wm / se_wm))
     return beta_wm, se_wm, p

@@ -42,6 +42,7 @@ These outputs are not a substitute for raw-data reproduction: full reruns still 
 | `table_s3_drugtarget.csv` | Supplementary Table S3: drug-target cis-MR results |
 | `table_s4_protein_mr.csv` | Supplementary Table S4: protein MR results |
 | `table_s5_sensitivity.csv` | Supplementary Table S5: sensitivity analysis details |
+| `table_s6_supporting_poag.csv` | Supplementary Table S6: supporting GBMI East Asian POAG analyses |
 
 ## Audit files
 
